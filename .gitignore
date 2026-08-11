@@ -1,0 +1,98 @@
+# ============================================
+# Smart Helmet — .gitignore
+# PyTorch / Machine Learning Project
+# ============================================
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# ----- Virtual Environments -----
+.venv/
+venv/
+env/
+ENV/
+
+# ----- Jupyter Notebooks -----
+.ipynb_checkpoints/
+*.ipynb
+
+# ----- IDE / Editor -----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ----- OS Generated -----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# ----- Trained Models (host externally) -----
+# Models are hosted on Google Drive / HuggingFace
+# See README.md for download links
+*.h5
+*.pkl
+*.pth
+*.pt
+*.tflite
+*.onnx
+*.pb
+*.savedmodel/
+checkpoints/
+
+# ----- Datasets (too large for GitHub) -----
+# Download instructions in README.md
+*.csv
+*.xlsx
+*.xls
+*.dat
+*.hea
+*.pwave
+MobiFall_Dataset_v2.0/
+mit-bih-arrhythmia-database-p-wave-annotations/
+
+# ----- Large Media -----
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+*.rar
+
+# ----- Temp / Scratch Files -----
+tempCodeRunnerFile.*
+*.log
+*.tmp
+*.bak
+*.orig
+
+# ----- NumPy intermediate files -----
+# (sample_*.npy in data/ are tracked — they're tiny)
+*.npy
+
+# ----- Docs we DON'T want -----
+*.docx
+*.doc
+*.odp
+*.pptx
+
+# ============================================
+# EXCEPTIONS — files to ALWAYS include
+# ============================================
+!data/sample_ecg.npy
+!data/sample_eeg.npy
+!data/sample_imu.npy
+!results/**/*.csv
+!results/*.csv
