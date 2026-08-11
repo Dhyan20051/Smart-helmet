@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/CUDA-GPU_Accelerated-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA"/>
 </p>
 
-# 🏍️ Smart Helmet — AI-Powered Rider Safety System
+# 🏍️ Smart helmet using IMU, ECG and EEG
 
 **A smart motorcycle helmet that uses AI to detect if a rider is in danger by reading their heart rate, brain activity, and body movement — and alerts them before an accident happens.**
 
