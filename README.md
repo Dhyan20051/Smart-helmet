@@ -215,8 +215,8 @@ The trained model files and full datasets are **not included** in this repositor
 **Dhyan** — Engineering Student & ML Enthusiast
 
 - 🌐 GitHub: [github.com/Dhyann20051](https://github.com/Dhyann20051)
-- 📧 Email: *[your.email@example.com]*
-- 💼 LinkedIn: *[your-linkedin-url]*
+- 📧 Email: *dhyan20051@gmail.com*
+- 💼 LinkedIn: *https://www.linkedin.com/in/dhyan02/*
 
 ---
 
